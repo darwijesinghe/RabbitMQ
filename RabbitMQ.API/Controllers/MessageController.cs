@@ -5,7 +5,7 @@ using RabbitMQ.Shared.Interfaces;
 namespace RabbitMQ.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class MessageController : ControllerBase
     {
         // Services
