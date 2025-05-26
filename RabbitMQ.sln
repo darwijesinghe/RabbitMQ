@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.API", "RabbitMQ.API\RabbitMQ.API.csproj", "{900C6B56-0857-4731-B1ED-E46E176AD17E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Processor", "RabbitMQ.Processor\RabbitMQ.Processor.csproj", "{E31FCC96-D968-46C8-8595-CDB18E7B2324}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Shared", "RabbitMQ.Shared\RabbitMQ.Shared.csproj", "{C612106D-4EE5-4798-8432-DA309A254DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{651E5396-A004-4EB9-A669-366940AC6D28}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{900C6B56-0857-4731-B1ED-E46E176AD17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900C6B56-0857-4731-B1ED-E46E176AD17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900C6B56-0857-4731-B1ED-E46E176AD17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900C6B56-0857-4731-B1ED-E46E176AD17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31FCC96-D968-46C8-8595-CDB18E7B2324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31FCC96-D968-46C8-8595-CDB18E7B2324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31FCC96-D968-46C8-8595-CDB18E7B2324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31FCC96-D968-46C8-8595-CDB18E7B2324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C612106D-4EE5-4798-8432-DA309A254DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C612106D-4EE5-4798-8432-DA309A254DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C612106D-4EE5-4798-8432-DA309A254DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C612106D-4EE5-4798-8432-DA309A254DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9CF5643-FC59-4790-BB47-1631C5AF0DC7}
+	EndGlobalSection
+EndGlobal
